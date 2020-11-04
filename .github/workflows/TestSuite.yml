@@ -3,7 +3,7 @@ on:
   pull_request_review:
     types: [submitted]
     branches:
-      - development
+      - dev
     paths-ignore:
       - 'package.json'
       - 'CHANGELOG.md'
